@@ -20,7 +20,7 @@ found = False
 
 for name, classrecord in classrecord.items():
 
-    if search.lower() == name.lower() or search.lower() == classrecord["StudID"].lower():
+    if search.lower() == name.lower():
 
         found = True
 
